@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Gentium+Plus:ital@1&family=Inter:wght@100;400&display=swap');
+
+
+body{
+    background: url('https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/305992566_463240302496952_3539765541683302978_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=9lDtiKo1pzwAX8UhewL&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfCEfl-AaVA5lQ144KRMiLvvFhxCAHHe11HLxrW20s8t2Q&oe=64734EA1');
+    font-family: ' Inter ';    
+    margin: 0;
+    background-size: coveR;
+
+}
+h1, h2,p{
+    margin: 0;
+}
+#top{
+    background-color: rgb(52, 152, 219) ;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    padding: 0 0 5px 10px;
+}
+
+#top h1{
+   margin-bottom: 10px;
+}
+#bottom{
+    text-align: center ;
+    font-weight: 700;
+    background-color: #bdc3c7;
+    line-height: 30px;
+    margin-top: 30px;
+   
+}
+.wrapper{
+    position: relative;
+}
+
+#main{
+    
+    font-weight: 25px;
+    padding: 0 800px 0 2px;
+}
+#main h1, #main h2{
+    margin: 10px 0 20px;
+}
+#main img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(44, 62, 80) ;
+    border-radius: 30px 10px 30px 10px;
+}
+.keyword{
+  font-style: italic;
+}
+
+#sidebar{
+    position: absolute;
+    right: 20px;
+    left: 800px;
+    top: 20px;
+    width: 500px;
+    font-size: 13px;
+    border: 3px dashed  rgb(52, 186, 219);
+    padding: 0 0  20px 20px;
+}
+
+#sidebar img {
+ max-width: 270px;
+ margin-top: 20px;
+ border-radius: 30px 10px 30px 10px;
+}
+
+a{
+    color: rgb(52, 152, 219);
+}
+
+
